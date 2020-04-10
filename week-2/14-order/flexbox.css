@@ -6,7 +6,7 @@
 
 .countries--first :nth-child(1) {
   order: 5;
-}
+} /*
 .countries--first :nth-child(2) {
   order: 1;
 }
@@ -18,11 +18,11 @@
 }
 .countries--first :nth-child(5) {
   order: 4;
-}
+}*/
 
 .countries--second :nth-child(1) {
-  order: 4;
-}
+  order: 1;
+} /*
 .countries--second :nth-child(2) {
   order: 1;
 }
@@ -31,9 +31,9 @@
 }
 .countries--second :nth-child(4) {
   order: 3;
-}
+}*/
 .countries--second :nth-child(5) {
-  order: 5;
+  order: 2;
 }
 
 .countries--third :nth-child(1) {
