@@ -56,11 +56,13 @@
         <form method="GET" class="contact-form">
           <div class="contact-form__field">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" placeholder="Name" />
           </div>
           <div class="contact-form__field">
+            <label for="message">Message</label>
             <textarea
               name="message"
+              id="message"
               placeholder="Your message should not be longer than 200 words."
             ></textarea>
           </div>
@@ -71,7 +73,8 @@
       <footer>
         <p>
           <a href="https://github.com/CodeYourFuture/html-css-git-exercises">Built</a>
-          with ♥ for <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
+          with <span class="heart">♥</span> for
+          <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
         </p>
         <p>
           <svg
