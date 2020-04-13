@@ -72,18 +72,21 @@
             ></textarea>
           </div>
           <div class="contact-form__field">
-            <p>
-              <input type="radio" name="branch" id="london" />
-              <label for="london">London</label>
-            </p>
-            <p>
-              <input type="radio" name="branch" id="glasgow" />
-              <label for="glasgow">Glasgow</label>
-            </p>
-            <p>
-              <input type="radio" name="branch" id="manchester" />
-              <label for="manchester">Manchester</label>
-            </p>
+            <fieldset>
+              <legend>What branch are you interested in?</legend>
+              <p>
+                <input type="radio" name="branch" id="london" value="london" />
+                <label for="london">London</label>
+              </p>
+              <p>
+                <input type="radio" name="branch" id="glasgow" value="glasgow" />
+                <label for="glasgow">Glasgow</label>
+              </p>
+              <p>
+                <input type="radio" name="branch" id="manchester" value="manchester" />
+                <label for="manchester">Manchester</label>
+              </p>
+            </fieldset>
           </div>
           <button type="submit">Send</button>
         </form>
